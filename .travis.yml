@@ -5,9 +5,7 @@ deploy:
   slug: "~jonas-chromik/hpi-bp2015h-test/trunk"
   on:
     branch: master
-  edge:
-    source: HPI-BP2015H/dpl
-    branch: launchpad
+  edge: true
   oauth_token:
     secure: y6hkDL4pqVKSY4s/luaqXRZaR1JOyIW0TnoaT6PUdjBORzUEgkdzWVo+ro6g9Zss6jwg/CB3hf1FsjJOsMsUihFqOEt6E5a/BhWzKcb9/t3zIhNp6zTOBRK1qCyPpMEljyG+CgCUHljh0Y0U+GY1P9haBGdhKHQaG2dtrfE70Lq3iaU3vR/A7v1ERuzDSAFiCLAjybY78qJVmOnVgwDBPqNTvEhKHPq+x24GjGMd/bOhY5XgeQfGZ50WhcwUk8L76NfK7SweaDreKYLkYzkvuuTDBJzRXEmNpjr2K2cwSpxUdBQlzNwxprwY6YwzyeGsuZg2mkBTOKlP2qEQUXilkWNZZBSeiXwSOLXZYA7Rjiw/6kyidj69L/iXJhh/tFObmwZdePrQXeNv2+W8Pxbu21ZXlad1sFyUrzdrAJGXYXBvwbVIDy73EXu1vTOfTsG+QGWx4S1eExD1pm9waSH5UzWjfJ+TqsaHMgfk3jKeQ74hPLz96gc4X6UY7fIJairhD+/YJZ8B5ISTJJSVdvXitOks8DVHZ8TzHT9+qC8NaN1TlOBIksSnwSoQJLKwEeghfQWQXdra6UhJC0Va5QmVsQOfVeGV/X6XTBtz6hUax4hsDQmtw7nAJ97CgnwU9RBB3xpx6APmdLRZddd7M8HKUyiR5Bs9mUBy1f5HjZnvztk=
   oauth_token_secret:
